@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ediName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="11dp"
+        android:background="@drawable/stroke"
+        android:hint="Name" />
+
+
+    <EditText
+        android:id="@+id/ediDpt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="11dp"
+        android:background="@drawable/stroke"
+        android:hint="dept" />
+
+    <EditText
+        android:id="@+id/ediCity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/stroke"
+        android:hint="city" />
+
+    <Button
+        android:id="@+id/btnIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/solid"/>
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/solid"/>
+
+
+
+</LinearLayout>
